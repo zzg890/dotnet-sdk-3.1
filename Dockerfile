@@ -5,3 +5,4 @@ RUN apt install -y npm
 RUN npm install -y npm@latest -g
 RUN npm install -g n
 RUN n lts
+RUN npm config set registry https://registry.npm.taobao.org
