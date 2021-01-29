@@ -7,3 +7,4 @@ RUN npm install -g n
 RUN n lts
 RUN npm config set registry https://registry.npm.taobao.org
 VOLUME ["/src"]
+VOLUME ["/src/nuget.config"]
